@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Coverage
+coverage/
+reports/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+.env.local
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Cache
+.cache/
+.jest-cache/
+.rollup.cache/
+
+# Git worktrees (created by /work command)
+.worktrees/
+
+# Review context (temporary files from /work reviews)
+.review-context/
+
+# GitHub Actions checkout (created during CI)
+.github/ai-swfactory-actions/
